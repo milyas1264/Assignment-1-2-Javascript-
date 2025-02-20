@@ -11,5 +11,12 @@ console.log(x);
 console.log(y);
 console.log(name);
 console.log(age);
+   alert("welcome to my website")
 
-
+   var a = 20 ;
+   var b = 30 ;
+   if(a !== b){
+    document.write("Both are not equal")
+   }
+        
+    

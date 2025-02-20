@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic</title>
+    
+</head>
+<body>
+    <h1>Arithmetic calculation function</h1>
+    <form action="">
+        <input type="text" id="num1" placeholder="first value" >
+        <input type="text" id="num2" placeholder="2nd value" >
+        <br><br>
+        <button type="button" onclick="add()">Addition</button>
+        <button type="button" onclick="sub()">Subtraction</button>
+        <button type="button" onclick="mul()">multiplication</button>
+        <button type="button" onclick="division()">division</button>
+        <button type="button" onclick="remin()">reminder</button>
+        <p id="data"></p>
+    </form>
+    <br><br>
+    <hr>
+
+
+    <script>
+
+      function add(){
+        var a =parseInt (document.getElementById("num1") .value);
+        var b =parseInt (document.getElementById("num2") .value);
+        var sum = a + b ;
+        document.getElementById("data").innerHTML = sum;
+        
+      };
+  
+      function sub(){
+        var a =parseInt (document.getElementById("num1") .value);
+        var b =parseInt (document.getElementById("num2") .value);
+        var sub = a - b ;
+        document.getElementById("data").innerHTML = sub;
+        
+      };  
+
+      function mul(){
+        var a =parseInt (document.getElementById("num1") .value);
+        var b =parseInt (document.getElementById("num2") .value);
+        var mul = a * b ;
+        document.getElementById("data").innerHTML = mul;
+        
+      };
+
+      function division(){
+        var a =parseInt (document.getElementById("num1") .value);
+        var b =parseInt (document.getElementById("num2") .value);
+        var division = a / b ;
+        document.getElementById("data").innerHTML = division;
+        
+      };
+      function remin(){
+        var a =parseInt (document.getElementById("num1") .value);
+        var b =parseInt (document.getElementById("num2") .value);
+        var remin = a % b ;
+        document.getElementById("data").innerHTML = remin;
+        
+      };
+
+
+
+       
+        
+    </script>
+
+<div><a href="../index.html">Home</a></div>
+<div><a href="sequance.html">page</a></div>
+<div><a href="variabl.html">Sequence</a></div>
+<div><a href="first.js">Variables</a></div>
+<div><a href="operators.html">operators</a></div>
+
+    
+</body>
+</html>
